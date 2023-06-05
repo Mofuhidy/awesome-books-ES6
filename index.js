@@ -4,7 +4,7 @@ class Book {
     this.author = author;
   }
 
-  static showBooks() {
+  static showBooks = () => {
     const container = document.querySelector('.container');
     const addBooks = JSON.parse(localStorage.getItem('addBooks'));
     const mybooks = addBooks || [];
@@ -38,7 +38,7 @@ class Book {
     }
   }
 
-  static showPopWin() {
+  static showPopWin = () => {
     const popWin = document.createElement('div');
     popWin.className = 'pop-win';
     document.querySelector('body').appendChild(popWin);
@@ -51,7 +51,7 @@ class Book {
     setTimeout(() => popWin.remove(), 2000);
   }
 
-  static addNew(e) {
+  static addNew = (e) => {
     e.preventDefault();
 
     const title = document.querySelector('#title');
@@ -75,7 +75,7 @@ class Book {
     document.querySelector('form').reset();
   }
 
-  static removeBook(id) {
+  static removeBook = (id) => {
     let addBooks = JSON.parse(localStorage.getItem('addBooks'));
     addBooks = addBooks.filter((e) => e.id !== id);
 
@@ -83,7 +83,7 @@ class Book {
     Book.showBooks();
   }
 
-  static showIt(id) {
+  static showIt = (id) => {
     const sectionList = ['list-section', 'add-section', 'about-section'];
 
     sectionList.forEach((e) => {
@@ -95,7 +95,7 @@ class Book {
     });
   }
 
-  static toggleActive(id) {
+  static toggleActive = (id) => {
     const links = document.querySelectorAll('.nav-link');
     links.forEach((link) => {
       link.classList.remove('active');
@@ -104,7 +104,7 @@ class Book {
     clickedLink.classList.add('active');
   }
 
-  static showNaviagtionBar() {
+  static showNaviagtionBar = () => {
     const navigation = document.querySelector('#navigation-container');
 
     navigation.innerHTML = `<nav>
@@ -124,7 +124,7 @@ class Book {
     `;
   }
 
-  static showTime() {
+  static showTime = () => {
     const dateTime = document.querySelector('.time');
     const timeDate = () => {
       setInterval(() => {
