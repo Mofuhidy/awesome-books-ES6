@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Awesome Books - Fuhidy</title>
+</head>
+
+<body>
+
+    <header id="navigation-container">
+        <nav>
+            <h5>Awesome Books</h5>
+            <ul>
+                <li class="nav-link active" id="list">List</li>
+                <li class="nav-link" id="addNew">Add new</li>
+                <li class="nav-link" id="contact">Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p class="time"></p>
+        <section class="book-list" id="list-section" data-visible="true">
+            <h1>All Awesome books</h1>
+            <!-- Container of the books -->
+            <div class="container">
+            </div>
+
+        </section>
+
+        <section id="add-section" data-visible="false">
+            <h2>Add new book</h2>
+            <form id="form" method="POST">
+                <input type="text" placeholder="Title" id="title" required>
+                <input type="text" placeholder="Author" id="author" required>
+                <button type="submit" value="Add" class="btn">Add</button>
+            </form>
+        </section>
+
+        <section id="about-section" class="book-list" data-visible="false">
+            <h2>Contact Information</h2>
+            <div class="contact-information">
+                <p>Do you have any questions or you just want to say "Hello" ? <br> You can reach out to us:</p>
+                <ul>
+                    <li><a href="https://github.com/Mofuhidy">Fuhidy</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-section">
+        <a href="https://github.com/Mofuhidy/awesome-books-ES6/blob/main/MIT.md">&copy; Copyright 2023</a>
+    </footer>
+
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>
