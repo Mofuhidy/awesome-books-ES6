@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 
+:root {
+  --main: #213555;
+  --sec: #d8c4b6;
+  --third: #4f709c;
+  --forth: #c8b6a9;
+}
+
 body,
 h1,
 h2,
@@ -28,11 +35,11 @@ h2 {
 }
 
 h5 {
-  color: #f69a4a;
+  color: var(--sec);
 }
 
 body {
-  background-color: #025464;
+  background-color: var(--main);
   color: #f8f1f1;
 }
 
@@ -78,11 +85,11 @@ main {
 ul li button.btn {
   background: #f8f1f1;
   padding: 5px;
-  color: #000;
+  color: var(--third);
 }
 
 button:hover {
-  border: 1px solid #000;
+  border: 1px solid var(--third);
   font-weight: 600;
 }
 
@@ -104,12 +111,12 @@ button:hover {
 }
 
 #form input:focus-visible {
-  outline: #e57c23 auto 1px;
+  outline: var(--third) auto 1px;
   border-radius: 5px;
 }
 
 #form button {
-  background-color: #e57c23;
+  background-color: var(--third);
   color: #fff;
   align-self: end;
   padding: 10px;
@@ -117,9 +124,9 @@ button:hover {
 
 #form button:focus,
 #form button:hover {
-  background-color: #e8aa42;
+  background-color: var(--sec);
   color: #fff;
-  border: 1px solid #474747;
+  border: 1px solid var(--main);
 }
 
 ul li {
@@ -134,7 +141,7 @@ ul li {
 
 ul {
   padding: 0;
-  background-color: #e57c23;
+  background-color: var(--third);
   margin-block: 4px;
   border-radius: 5px;
 }
@@ -154,7 +161,7 @@ nav {
 
 nav ul {
   display: flex;
-  background-color: #025464;
+  background-color: var(--main);
   justify-content: center;
 }
 
@@ -168,12 +175,12 @@ nav ul {
 }
 
 .container ul:nth-child(even) {
-  background-color: #e8aa42;
+  background-color: var(--forth);
 }
 
 .line {
   height: 2px;
-  background-color: #e57c23;
+  background-color: var(--third);
   width: 200px;
   border-radius: 2.5px;
   margin-block: 20px;
@@ -182,7 +189,7 @@ nav ul {
 nav ul li {
   display: flex;
   width: fit-content;
-  background-color: #025464;
+  background-color: var(--main);
   justify-content: center;
   font-size: 0.9rem;
   margin: 5px;
@@ -203,18 +210,18 @@ footer a {
 
 .contact-information a {
   text-decoration: none;
-  color: #025464;
+  color: var(--main);
   display: flex;
   cursor: pointer;
 }
 
 nav > ul li:hover {
-  color: #f69a4a;
+  color: var(--sec);
   cursor: pointer;
 }
 
 nav > ul li.active {
-  color: #f69a4a;
+  color: var(--sec);
   cursor: pointer;
 }
 
@@ -240,7 +247,7 @@ footer {
 
 footer a:hover {
   text-decoration: none;
-  color: #e57c23;
+  color: var(--third);
   transform: translateY(-10px);
 }
 
@@ -253,7 +260,7 @@ footer a:hover {
 
 .contact-information p {
   padding-bottom: 15px;
-  color: #e8aa42;
+  color: var(--sec);
   font-size: 12px;
 }
 
@@ -266,7 +273,7 @@ footer a:hover {
 
 .contact-information a:hover {
   text-decoration: none;
-  color: #e57c23;
+  color: var(--third);
   transform: scale(1.3);
 }
 
@@ -290,7 +297,7 @@ footer a:hover {
   width: 200px;
   text-align: center;
   padding: 10px 20px;
-  background-color: #e57c23;
+  background-color: var(--third);
   box-shadow: 0 3px 2px black;
 }
 
@@ -316,7 +323,7 @@ footer a:hover {
   }
 
   nav > ul li.active {
-    color: #f69a4a;
+    color: var(--sec);
     cursor: pointer;
   }
 
