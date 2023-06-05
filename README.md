@@ -2,7 +2,7 @@
 
 <div align="center">
   <br/>
-  <h3><b>Awesonme Books (Books-list)</b></h3>
+  <h3><b>Awesome Books ES6</b></h3>
 
 </div>
 
@@ -40,6 +40,7 @@
   <ul>
     <li><a href="#">JS</a></li>
     <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
   </ul>
 </details>
 
@@ -51,6 +52,7 @@
 - **Add books with author and title**
 - **Remove them**
 - **save the data in local storage**
+- **save the data in local storage**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -58,7 +60,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://khanh-devos.github.io/awesome-books/)
+- [Live Demo Link](https://mofuhidy.github.io/awesome-books-ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,21 +70,22 @@
 
 - Open your Terminal
 - Navigate to the desired directory to which you want to clone the repository to
-- [Copy & Paste] git clone https://github.com/khanh-devos/awesome-books.git
+- [Copy & Paste] git clone https://mofuhidy.github.io/awesome-books-ES6/
 
 ### Prerequisites
 
 In order to run this project you need:
+
 - Basic knowledge of HTML and CSS
 - Basic knderstanding of Linters
 - Basic understanding of Github
-- Your machine should have Chrome and VSCode installed 
+- Your machine should have Chrome and VSCode installed
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-- git clone https://github.com/khanh-devos/awesome-books.git
+- git clone https://mofuhidy.github.io/awesome-books-ES6/
 
 ### Install
 
@@ -106,23 +109,13 @@ To run tests, run the following command:
 
 ### Deployment
 
-You can deploy any service you want. 
+You can deploy any service you want.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-👤 **Khanh**
-
-- GitHub: [khanh-devos](https://github.com/khanh-devos)
-- Twitter: [@khanhror](https://twitter.com/home?lang=en)
-- LinkedIn: [Khanh RoR](https://www.linkedin.com/in/khanh-than-trong-3b4344246/)
-
-👤 **Jallouh**
-
-- GitHub: [@aradradev](https://github.com/aradradev)
 
 👤 **MoFuhidy**
 
