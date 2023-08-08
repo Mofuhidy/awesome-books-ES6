@@ -134,7 +134,7 @@ ul li {
   justify-content: space-between;
   width: 300px;
   align-items: center;
-  height: 30px;
+  min-height: 40px;
   padding: 5px;
   color: #fff;
 }
@@ -235,13 +235,12 @@ section[data-visible="false"] {
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
   display: flex;
   justify-content: center;
   height: 30px;
-  width: 100%;
   padding: 15px;
 }
 
